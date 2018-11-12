@@ -8,7 +8,7 @@ docker run --name MyJenkins -p 8080:8080 -p 50000:50000 -v PATH_ON_YOUR_SYSTEM:/
 ```
 
 -v is for volume binding. Needs read/write permissions
-  the ports are up to you
+-p the ports are up to you
 
 3. have fun with jenkins!
 
