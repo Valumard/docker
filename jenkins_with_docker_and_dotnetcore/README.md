@@ -7,8 +7,8 @@ docker build -t "YOUR_TAG_NAME" .
 docker run --name MyJenkins -p 8080:8080 -p 50000:50000 -v PATH_ON_YOUR_SYSTEM:/var/jenkins_home YOUR_TAG_NAME
 ```
 
--v is for volume binding. Needs read/write permissions
--p the ports are up to you
+-v is for volume binding. Needs read/write permissions  
+-p the ports are up to you  
 
 3. have fun with jenkins!
 
